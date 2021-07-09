@@ -1,12 +1,13 @@
 $fn = ($preview)? 20:300;
 
-top_width = 10;
-top_length = 20;
-chimney_height = 20;
-screw_hole_dia = 2;
-height = 35;
-bottom_diameter = 45;
-wall_thickness = 1;
+//American 2x4 lumber leg
+top_width = 38;
+top_length = 89;
+chimney_height = 38;
+screw_hole_dia = 3;
+height = 32;
+bottom_diameter = 115; //4 in diameter tuna can + a bit
+wall_thickness = 2;
 
 difference()
 {
